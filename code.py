@@ -1,6 +1,8 @@
 import pygame
 
 
+print("я женя лизогуб")
+
 class Sprite:
     def __init__(self, x, y, filename, speed, w, h):
         self.image = pygame.transform.scale(pygame.image.load(filename), (w, h))
